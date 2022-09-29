@@ -1,0 +1,9 @@
+																																																																																																																																																																																																																																																																																																																																																																																																																		<launch>
+	<node name="stage" pkg="stage_ros" type="stageros"
+	      args="$(find lab6)/World/playground.world" />  
+	<node name="controller_node" pkg="lab6" type="bug2_temp.py" output="screen" />
+	<param name = 'goal_pose_x' value='9.00'  />
+	<param name = 'goal_pose_y' value='4.00'  />
+	<param name = 'goal_pose_z' value='0'  />
+	<param name = 'goal_pose_deg' value='90'  />        
+</launch>
