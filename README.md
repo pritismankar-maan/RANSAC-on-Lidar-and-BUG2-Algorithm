@@ -14,3 +14,9 @@ Extract high-level features (boundaries, corners, shapes) from Lidar data using 
    > pritismankar@ubuntu-ros:~/catkin_ws$ roslaunch lab6 perception.launch
 7. Execute the command 'roslaunch lab6 bug2.launch' to view the robot moving from start position(fixed) to end position(can be changed) in the ROS-Stage environment. Along with this, you would be able to see the high level feature extraction at each timestep on the RViz window.
    > pritismankar@ubuntu-ros:~/catkin_ws$ roslaunch lab6 bug2.launch
+
+# Configuration
+1. Update Goal Pose
+   > 'lab6/launch/bug2.launch' script can be updated: goal pose (X, Y, theta) needs to be changed 
+2. Update starting Pose
+   > 'lab6/World/playground.world' script can be updated: turtlebot pose (X, Y, theta) needs to be changed
