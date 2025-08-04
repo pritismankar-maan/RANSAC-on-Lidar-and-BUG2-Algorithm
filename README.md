@@ -7,7 +7,7 @@ Extract high level features from Lidar data using RANSAC Algorithm and BUG-2 loc
    > pritismankar@ubuntu-ros:~/catkin_ws/src$ git clone https://github.com/pritismankar-maan/RANSAC-on-Lidar-and-BUG2-Algorithm.git
 3. Build the catkin workspace.
    > pritismankar@ubuntu-ros:~/catkin_ws$ catkin_make
-5.Source bash file.
+4. Source bash file.
    > pritismankar@ubuntu-ros:~/catkin_ws$ source devel/setup.bash
 6. Execute the command 'roslaunch lab6 perception.launch' to view the high level features such as lines and corner in Rviz window.
    > pritismankar@ubuntu-ros:~/catkin_ws$ roslaunch lab6 perception.launch
