@@ -1,8 +1,8 @@
 # RANSAC-on-Lidar-and-BUG2-Algorithm
-Extract high level features from Lidar data using RANSAC Algorithm and BUG-2 local planner algorithm implementation
+Extract high level features (boundaries, corners, shapes) from Lidar data using RANSAC Algorithm and use those features with BUG-2 local planner algorithm to drive a simulated robot from Start to Fnish.
 
 
-# Steps to run the file
+# Installation Steps
 1. Download the folder into the 'src' folder of your catkin workspace
    > pritismankar@ubuntu-ros:~/catkin_ws/src$ git clone https://github.com/pritismankar-maan/RANSAC-on-Lidar-and-BUG2-Algorithm.git
 3. Build the catkin workspace.
